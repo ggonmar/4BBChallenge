@@ -3,7 +3,7 @@
 
 This repo contains the answer to exercise 2 of the ABB challenge proposed:
 
->*Integration testing*
+>_**Integration testing**_
 >
 >For the given stack in the virtual machine write an integration test script to check all QRT components (front-end, back-end, db) works well together
 
@@ -21,6 +21,6 @@ Proposed tests are under the file *integration.js*, and initial effort focused o
 6. When clicking on the Close button (X), the modal should be closed.
 
 POM is taken into consideration, defining files to regard to different areas, to know:
-* *home.page.js*
+* **home.page.js**
 
 
