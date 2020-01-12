@@ -1,4 +1,4 @@
-# ABBChallenge
+# ABB Challenge
 ## Testing Challenge 
 
 This repo contains the answer to exercise 2 of the ABB challenge proposed:
@@ -11,7 +11,7 @@ The proposed solution is to automate certain end to end tests that would cover b
 
 Proposed tests are under the file *integration.js*, and initial effort focused on the following:
 
-1. When the user accesses QRT, 3D View should be the default view.
+1. _When_ the user accesses QRT, 3D View should be the default view.
     * 3D View has a tab with items and has a canvas embedded.
 2. When clicking on a point on the left tab, a new modal should be shown.
     * The modal contains a list of checkboxes and a graph next to it.
