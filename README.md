@@ -21,11 +21,14 @@ Proposed tests are under the file *integration.js*, and initial effort focused o
 6. _**When**_ clicking on the Close button (X), the modal  _**should**_ be closed.
 
 POM is taken into consideration, defining files to regard to different areas, to know:
-* **home.page.js**
+* **home.page.js**: Model for the 3D view, default page when logging into the QRT tool
+* **point.modal.js**: Model for the modal that pops up when selecting a certain point
 
----
+Other files:
+* **integration.js**: Definition of tests, making use of the models defined above.
+* **assertions.js**: Custom assertions library. This could be improved by using improved libraries for this purpose, such as Jasmine or Mocha.
+* **config.js**: Protractor configuration file, launcher of the tests in _integration.js_.
+* **literals.js**: Helper to control literals that may change, so they are not hardcoded onto the tests - equivalently to the POM concept.
 
-Furthermore, a custom library, **assertions.js** for assertions has been developed to better control the test behavior. 
-This could be improved by using improved libraries for this purpose, such as Jasmine or Mocha.
 
 
