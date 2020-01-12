@@ -11,14 +11,14 @@ The proposed solution is to automate certain end to end tests that would cover b
 
 Proposed tests are under the file *integration.js*, and initial effort focused on the following:
 
-1. _When_ the user accesses QRT, 3D View should be the default view.
+1. _**When**_ the user accesses QRT, 3D View _**should**_ be the default view.
     * 3D View has a tab with items and has a canvas embedded.
-2. When clicking on a point on the left tab, a new modal should be shown.
+2. _**When**_ clicking on a point on the left tab, a new modal  _**should**_ be shown.
     * The modal contains a list of checkboxes and a graph next to it.
-3. When unselecting a checkbox on the left tab of the modal, the legend on the right updates and should not show the unselected item.
-4. When selecting the Limit Scale checkbox, a new input should be shown
-5. When selecting the Use time scale checkbox, the canvas contains dates on the x-axis
-6. When clicking on the Close button (X), the modal should be closed.
+3. _**When**_ unselecting a checkbox on the left tab of the modal, the legend on the right  _**should**_ update and not show the unselected item.
+4. _**When**_ selecting the Limit Scale checkbox, a new input  _**should**_ be shown
+5. _**When**_ selecting the Use time scale checkbox, the canvas  _**should**_ contain dates on the x-axis
+6. _**When**_ clicking on the Close button (X), the modal  _**should**_ be closed.
 
 POM is taken into consideration, defining files to regard to different areas, to know:
 * **home.page.js**
