@@ -23,6 +23,7 @@ Proposed tests are under the file *integration.js*, and initial effort focused o
 POM is taken into consideration, defining files to regard to different areas, to know:
 * **home.page.js**
 
+---
 
 Furthermore, a custom library, **assertions.js** for assertions has been developed to better control the test behavior. 
 This could be improved by using improved libraries for this purpose, such as Jasmine or Mocha.
