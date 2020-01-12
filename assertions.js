@@ -3,7 +3,8 @@
 /* ggonmar@gmail.com          */
 
 
-var Assertions = function() {
+var Assertions = function() 
+{
     this.assertEquals = function(description, real, expected)
     {
         if(real==expected)
@@ -63,4 +64,5 @@ var Assertions = function() {
         console.log(`${description} ::\x1b[1m\x1b[31m FAILED \x1b[0m`);
     }
 };
+
 module.exports = new Assertions();
